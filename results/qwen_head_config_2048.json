@@ -1,0 +1,1090 @@
+{
+  "num_layers": 32,
+  "num_heads": 16,
+  "retrieval_ratio": 0.25,
+  "num_retrieval_heads": 32,
+  "num_local_heads": 96,
+  "heads": [
+    {
+      "layer": 3,
+      "head": 0,
+      "type": "local",
+      "retrieval_score": 0.25947169648677954
+    },
+    {
+      "layer": 3,
+      "head": 1,
+      "type": "local",
+      "retrieval_score": 0.4507387897460684
+    },
+    {
+      "layer": 3,
+      "head": 2,
+      "type": "local",
+      "retrieval_score": 0.3799496275469281
+    },
+    {
+      "layer": 3,
+      "head": 3,
+      "type": "local",
+      "retrieval_score": 0.2631088526754904
+    },
+    {
+      "layer": 3,
+      "head": 4,
+      "type": "retrieval",
+      "retrieval_score": 0.66956456182811
+    },
+    {
+      "layer": 3,
+      "head": 5,
+      "type": "local",
+      "retrieval_score": 0.5546277533490737
+    },
+    {
+      "layer": 3,
+      "head": 6,
+      "type": "local",
+      "retrieval_score": 0.5489237248375234
+    },
+    {
+      "layer": 3,
+      "head": 7,
+      "type": "retrieval",
+      "retrieval_score": 0.6383613471447804
+    },
+    {
+      "layer": 3,
+      "head": 8,
+      "type": "local",
+      "retrieval_score": 0.40021320868312815
+    },
+    {
+      "layer": 3,
+      "head": 9,
+      "type": "local",
+      "retrieval_score": 0.5395414530418428
+    },
+    {
+      "layer": 3,
+      "head": 10,
+      "type": "local",
+      "retrieval_score": 0.5225983344688062
+    },
+    {
+      "layer": 3,
+      "head": 11,
+      "type": "local",
+      "retrieval_score": 0.50904127811262
+    },
+    {
+      "layer": 3,
+      "head": 12,
+      "type": "local",
+      "retrieval_score": 0.5437391361009889
+    },
+    {
+      "layer": 3,
+      "head": 13,
+      "type": "retrieval",
+      "retrieval_score": 0.6108931198469552
+    },
+    {
+      "layer": 3,
+      "head": 14,
+      "type": "retrieval",
+      "retrieval_score": 0.6558162302819313
+    },
+    {
+      "layer": 3,
+      "head": 15,
+      "type": "retrieval",
+      "retrieval_score": 0.6138898959527748
+    },
+    {
+      "layer": 7,
+      "head": 0,
+      "type": "local",
+      "retrieval_score": 0.30473231043403926
+    },
+    {
+      "layer": 7,
+      "head": 1,
+      "type": "local",
+      "retrieval_score": 0.23471832800885967
+    },
+    {
+      "layer": 7,
+      "head": 2,
+      "type": "local",
+      "retrieval_score": 0.3443807609726461
+    },
+    {
+      "layer": 7,
+      "head": 3,
+      "type": "local",
+      "retrieval_score": 0.5256766514561292
+    },
+    {
+      "layer": 7,
+      "head": 4,
+      "type": "local",
+      "retrieval_score": 0.31595132063039194
+    },
+    {
+      "layer": 7,
+      "head": 5,
+      "type": "retrieval",
+      "retrieval_score": 0.6626937769320154
+    },
+    {
+      "layer": 7,
+      "head": 6,
+      "type": "retrieval",
+      "retrieval_score": 0.6503185213690098
+    },
+    {
+      "layer": 7,
+      "head": 7,
+      "type": "local",
+      "retrieval_score": 0.36600497128806797
+    },
+    {
+      "layer": 7,
+      "head": 8,
+      "type": "local",
+      "retrieval_score": 0.3873784469209535
+    },
+    {
+      "layer": 7,
+      "head": 9,
+      "type": "local",
+      "retrieval_score": 0.5491719799031808
+    },
+    {
+      "layer": 7,
+      "head": 10,
+      "type": "local",
+      "retrieval_score": 0.518096159705329
+    },
+    {
+      "layer": 7,
+      "head": 11,
+      "type": "local",
+      "retrieval_score": 0.49406683998132933
+    },
+    {
+      "layer": 7,
+      "head": 12,
+      "type": "local",
+      "retrieval_score": 0.5026950291354706
+    },
+    {
+      "layer": 7,
+      "head": 13,
+      "type": "local",
+      "retrieval_score": 0.3425497270063428
+    },
+    {
+      "layer": 7,
+      "head": 14,
+      "type": "local",
+      "retrieval_score": 0.4617882767799385
+    },
+    {
+      "layer": 7,
+      "head": 15,
+      "type": "local",
+      "retrieval_score": 0.38841746450891224
+    },
+    {
+      "layer": 11,
+      "head": 0,
+      "type": "local",
+      "retrieval_score": 0.46750822683854604
+    },
+    {
+      "layer": 11,
+      "head": 1,
+      "type": "local",
+      "retrieval_score": 0.4382591070706304
+    },
+    {
+      "layer": 11,
+      "head": 2,
+      "type": "local",
+      "retrieval_score": 0.4188921672253304
+    },
+    {
+      "layer": 11,
+      "head": 3,
+      "type": "local",
+      "retrieval_score": 0.35523592103290014
+    },
+    {
+      "layer": 11,
+      "head": 4,
+      "type": "local",
+      "retrieval_score": 0.5112275193715851
+    },
+    {
+      "layer": 11,
+      "head": 5,
+      "type": "local",
+      "retrieval_score": 0.45568636281317526
+    },
+    {
+      "layer": 11,
+      "head": 6,
+      "type": "local",
+      "retrieval_score": 0.40749105199777313
+    },
+    {
+      "layer": 11,
+      "head": 7,
+      "type": "local",
+      "retrieval_score": 0.5090640307854422
+    },
+    {
+      "layer": 11,
+      "head": 8,
+      "type": "retrieval",
+      "retrieval_score": 0.6725114182217677
+    },
+    {
+      "layer": 11,
+      "head": 9,
+      "type": "retrieval",
+      "retrieval_score": 0.6355539447488849
+    },
+    {
+      "layer": 11,
+      "head": 10,
+      "type": "local",
+      "retrieval_score": 0.3889805348951685
+    },
+    {
+      "layer": 11,
+      "head": 11,
+      "type": "local",
+      "retrieval_score": 0.47217003894387455
+    },
+    {
+      "layer": 11,
+      "head": 12,
+      "type": "local",
+      "retrieval_score": 0.34018581822910815
+    },
+    {
+      "layer": 11,
+      "head": 13,
+      "type": "local",
+      "retrieval_score": 0.4797884714861441
+    },
+    {
+      "layer": 11,
+      "head": 14,
+      "type": "local",
+      "retrieval_score": 0.5009895920540532
+    },
+    {
+      "layer": 11,
+      "head": 15,
+      "type": "local",
+      "retrieval_score": 0.4610698115043842
+    },
+    {
+      "layer": 15,
+      "head": 0,
+      "type": "retrieval",
+      "retrieval_score": 0.5945409070085026
+    },
+    {
+      "layer": 15,
+      "head": 1,
+      "type": "local",
+      "retrieval_score": 0.47978316617269645
+    },
+    {
+      "layer": 15,
+      "head": 2,
+      "type": "local",
+      "retrieval_score": 0.4689529129424452
+    },
+    {
+      "layer": 15,
+      "head": 3,
+      "type": "local",
+      "retrieval_score": 0.46281360609097166
+    },
+    {
+      "layer": 15,
+      "head": 4,
+      "type": "local",
+      "retrieval_score": 0.5395407828398964
+    },
+    {
+      "layer": 15,
+      "head": 5,
+      "type": "local",
+      "retrieval_score": 0.4339542617930331
+    },
+    {
+      "layer": 15,
+      "head": 6,
+      "type": "local",
+      "retrieval_score": 0.48672165634579373
+    },
+    {
+      "layer": 15,
+      "head": 7,
+      "type": "local",
+      "retrieval_score": 0.3406444317378358
+    },
+    {
+      "layer": 15,
+      "head": 8,
+      "type": "local",
+      "retrieval_score": 0.5317611942267545
+    },
+    {
+      "layer": 15,
+      "head": 9,
+      "type": "local",
+      "retrieval_score": 0.5684058518580745
+    },
+    {
+      "layer": 15,
+      "head": 10,
+      "type": "local",
+      "retrieval_score": 0.5253833890691243
+    },
+    {
+      "layer": 15,
+      "head": 11,
+      "type": "local",
+      "retrieval_score": 0.4524870156454739
+    },
+    {
+      "layer": 15,
+      "head": 12,
+      "type": "local",
+      "retrieval_score": 0.5442275379154284
+    },
+    {
+      "layer": 15,
+      "head": 13,
+      "type": "retrieval",
+      "retrieval_score": 0.6602636492254234
+    },
+    {
+      "layer": 15,
+      "head": 14,
+      "type": "local",
+      "retrieval_score": 0.5854615189477091
+    },
+    {
+      "layer": 15,
+      "head": 15,
+      "type": "local",
+      "retrieval_score": 0.5389387469110452
+    },
+    {
+      "layer": 19,
+      "head": 0,
+      "type": "local",
+      "retrieval_score": 0.4823071226923684
+    },
+    {
+      "layer": 19,
+      "head": 1,
+      "type": "local",
+      "retrieval_score": 0.42735624054864213
+    },
+    {
+      "layer": 19,
+      "head": 2,
+      "type": "local",
+      "retrieval_score": 0.40498712813180415
+    },
+    {
+      "layer": 19,
+      "head": 3,
+      "type": "local",
+      "retrieval_score": 0.38541167167189105
+    },
+    {
+      "layer": 19,
+      "head": 4,
+      "type": "local",
+      "retrieval_score": 0.5706374316247461
+    },
+    {
+      "layer": 19,
+      "head": 5,
+      "type": "local",
+      "retrieval_score": 0.5878980544549021
+    },
+    {
+      "layer": 19,
+      "head": 6,
+      "type": "retrieval",
+      "retrieval_score": 0.6371236433446736
+    },
+    {
+      "layer": 19,
+      "head": 7,
+      "type": "local",
+      "retrieval_score": 0.5248414907016122
+    },
+    {
+      "layer": 19,
+      "head": 8,
+      "type": "local",
+      "retrieval_score": 0.47366302711567754
+    },
+    {
+      "layer": 19,
+      "head": 9,
+      "type": "local",
+      "retrieval_score": 0.411784293515539
+    },
+    {
+      "layer": 19,
+      "head": 10,
+      "type": "local",
+      "retrieval_score": 0.5164403131759085
+    },
+    {
+      "layer": 19,
+      "head": 11,
+      "type": "local",
+      "retrieval_score": 0.3713027628276824
+    },
+    {
+      "layer": 19,
+      "head": 12,
+      "type": "retrieval",
+      "retrieval_score": 0.6124053801783748
+    },
+    {
+      "layer": 19,
+      "head": 13,
+      "type": "local",
+      "retrieval_score": 0.2425673745293641
+    },
+    {
+      "layer": 19,
+      "head": 14,
+      "type": "local",
+      "retrieval_score": 0.34529227870225154
+    },
+    {
+      "layer": 19,
+      "head": 15,
+      "type": "local",
+      "retrieval_score": 0.4930626355721494
+    },
+    {
+      "layer": 23,
+      "head": 0,
+      "type": "local",
+      "retrieval_score": 0.4429825024507534
+    },
+    {
+      "layer": 23,
+      "head": 1,
+      "type": "local",
+      "retrieval_score": 0.5247806392464766
+    },
+    {
+      "layer": 23,
+      "head": 2,
+      "type": "local",
+      "retrieval_score": 0.3699085614774425
+    },
+    {
+      "layer": 23,
+      "head": 3,
+      "type": "local",
+      "retrieval_score": 0.46783478623628055
+    },
+    {
+      "layer": 23,
+      "head": 4,
+      "type": "local",
+      "retrieval_score": 0.5820389902441034
+    },
+    {
+      "layer": 23,
+      "head": 5,
+      "type": "local",
+      "retrieval_score": 0.5920362342363302
+    },
+    {
+      "layer": 23,
+      "head": 6,
+      "type": "local",
+      "retrieval_score": 0.57467700382381
+    },
+    {
+      "layer": 23,
+      "head": 7,
+      "type": "local",
+      "retrieval_score": 0.5937009137380458
+    },
+    {
+      "layer": 23,
+      "head": 8,
+      "type": "local",
+      "retrieval_score": 0.447682307096831
+    },
+    {
+      "layer": 23,
+      "head": 9,
+      "type": "local",
+      "retrieval_score": 0.545902037003958
+    },
+    {
+      "layer": 23,
+      "head": 10,
+      "type": "local",
+      "retrieval_score": 0.4275373398094554
+    },
+    {
+      "layer": 23,
+      "head": 11,
+      "type": "local",
+      "retrieval_score": 0.48352774741777915
+    },
+    {
+      "layer": 23,
+      "head": 12,
+      "type": "local",
+      "retrieval_score": 0.4971807588096519
+    },
+    {
+      "layer": 23,
+      "head": 13,
+      "type": "local",
+      "retrieval_score": 0.5585186478895627
+    },
+    {
+      "layer": 23,
+      "head": 14,
+      "type": "local",
+      "retrieval_score": 0.5192845354984803
+    },
+    {
+      "layer": 23,
+      "head": 15,
+      "type": "local",
+      "retrieval_score": 0.5422872389799698
+    },
+    {
+      "layer": 27,
+      "head": 0,
+      "type": "retrieval",
+      "retrieval_score": 0.6647986436156506
+    },
+    {
+      "layer": 27,
+      "head": 1,
+      "type": "retrieval",
+      "retrieval_score": 0.6176926050853868
+    },
+    {
+      "layer": 27,
+      "head": 2,
+      "type": "local",
+      "retrieval_score": 0.5158300047295843
+    },
+    {
+      "layer": 27,
+      "head": 3,
+      "type": "local",
+      "retrieval_score": 0.5624814175331707
+    },
+    {
+      "layer": 27,
+      "head": 4,
+      "type": "retrieval",
+      "retrieval_score": 0.68661505754515
+    },
+    {
+      "layer": 27,
+      "head": 5,
+      "type": "retrieval",
+      "retrieval_score": 0.6805527020907012
+    },
+    {
+      "layer": 27,
+      "head": 6,
+      "type": "retrieval",
+      "retrieval_score": 0.6902008526295458
+    },
+    {
+      "layer": 27,
+      "head": 7,
+      "type": "retrieval",
+      "retrieval_score": 0.6845475513272539
+    },
+    {
+      "layer": 27,
+      "head": 8,
+      "type": "retrieval",
+      "retrieval_score": 0.6490293228142402
+    },
+    {
+      "layer": 27,
+      "head": 9,
+      "type": "retrieval",
+      "retrieval_score": 0.6686556667480796
+    },
+    {
+      "layer": 27,
+      "head": 10,
+      "type": "retrieval",
+      "retrieval_score": 0.6657944019810994
+    },
+    {
+      "layer": 27,
+      "head": 11,
+      "type": "retrieval",
+      "retrieval_score": 0.6667957444077728
+    },
+    {
+      "layer": 27,
+      "head": 12,
+      "type": "retrieval",
+      "retrieval_score": 0.6937296314821804
+    },
+    {
+      "layer": 27,
+      "head": 13,
+      "type": "local",
+      "retrieval_score": 0.5548974827666843
+    },
+    {
+      "layer": 27,
+      "head": 14,
+      "type": "retrieval",
+      "retrieval_score": 0.6771319849253168
+    },
+    {
+      "layer": 27,
+      "head": 15,
+      "type": "retrieval",
+      "retrieval_score": 0.7171468537980665
+    },
+    {
+      "layer": 31,
+      "head": 0,
+      "type": "retrieval",
+      "retrieval_score": 0.6067045178807723
+    },
+    {
+      "layer": 31,
+      "head": 1,
+      "type": "retrieval",
+      "retrieval_score": 0.6026925439701818
+    },
+    {
+      "layer": 31,
+      "head": 2,
+      "type": "retrieval",
+      "retrieval_score": 0.6128722444748107
+    },
+    {
+      "layer": 31,
+      "head": 3,
+      "type": "local",
+      "retrieval_score": 0.5933984722543726
+    },
+    {
+      "layer": 31,
+      "head": 4,
+      "type": "retrieval",
+      "retrieval_score": 0.637727394299219
+    },
+    {
+      "layer": 31,
+      "head": 5,
+      "type": "retrieval",
+      "retrieval_score": 0.6283779148012315
+    },
+    {
+      "layer": 31,
+      "head": 6,
+      "type": "retrieval",
+      "retrieval_score": 0.7130856638178287
+    },
+    {
+      "layer": 31,
+      "head": 7,
+      "type": "local",
+      "retrieval_score": 0.5776012430959021
+    },
+    {
+      "layer": 31,
+      "head": 8,
+      "type": "local",
+      "retrieval_score": 0.3282174627976043
+    },
+    {
+      "layer": 31,
+      "head": 9,
+      "type": "local",
+      "retrieval_score": 0.01579672685688488
+    },
+    {
+      "layer": 31,
+      "head": 10,
+      "type": "local",
+      "retrieval_score": 0.15802381811806548
+    },
+    {
+      "layer": 31,
+      "head": 11,
+      "type": "local",
+      "retrieval_score": 0.47009348945430335
+    },
+    {
+      "layer": 31,
+      "head": 12,
+      "type": "local",
+      "retrieval_score": 0.049685258912372306
+    },
+    {
+      "layer": 31,
+      "head": 13,
+      "type": "local",
+      "retrieval_score": 0.28480769731797106
+    },
+    {
+      "layer": 31,
+      "head": 14,
+      "type": "local",
+      "retrieval_score": 0.24996727607581323
+    },
+    {
+      "layer": 31,
+      "head": 15,
+      "type": "local",
+      "retrieval_score": 0.3911945804645859
+    }
+  ],
+  "per_layer_summary": [
+    {
+      "layer": 0,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 1,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 2,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 3,
+      "retrieval_heads": [
+        4,
+        7,
+        13,
+        14,
+        15
+      ],
+      "local_heads": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "layer": 4,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 5,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 6,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 7,
+      "retrieval_heads": [
+        5,
+        6
+      ],
+      "local_heads": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "layer": 8,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 9,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 10,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 11,
+      "retrieval_heads": [
+        8,
+        9
+      ],
+      "local_heads": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "layer": 12,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 13,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 14,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 15,
+      "retrieval_heads": [
+        0,
+        13
+      ],
+      "local_heads": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ]
+    },
+    {
+      "layer": 16,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 17,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 18,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 19,
+      "retrieval_heads": [
+        6,
+        12
+      ],
+      "local_heads": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "layer": 20,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 21,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 22,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 23,
+      "retrieval_heads": [],
+      "local_heads": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "layer": 24,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 25,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 26,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 27,
+      "retrieval_heads": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "local_heads": [
+        2,
+        3,
+        13
+      ]
+    },
+    {
+      "layer": 28,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 29,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 30,
+      "retrieval_heads": [],
+      "local_heads": []
+    },
+    {
+      "layer": 31,
+      "retrieval_heads": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "local_heads": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  ],
+  "calibration_params": {
+    "model_path": "/mnt/d/minimind-RTPurbo/model/Qwen3.5-4B",
+    "data_path": "THUDM/LongAlign-10k",
+    "num_samples": 20,
+    "max_seq_len": 2048,
+    "local_window": 128,
+    "retrieval_ratio": 0.25
+  }
+}

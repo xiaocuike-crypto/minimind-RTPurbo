@@ -1,0 +1,39 @@
+{
+  "prompts": [
+    {
+      "prompt": "你好，请问你是谁？请简短地自我介绍一下。",
+      "teacher": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   User asks: \"你好，请问你是谁？请简短地自我介绍一下。\" (Hello, may I ask who you are? Please introduce yourself briefly.)\n    *   Intent: The user wants to know my identity and wants a concise self-introduction.\n    *   Constraint: \"简短\" (briefly/concisely).\n\n2.  **Identify My Identity:**\n    *   I",
+      "student": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   User: \"你好，请问你是谁？请简短地自我介绍一下。\" (Hello, may I ask who you are? Please briefly introduce yourself.)\n    *   Intent: The user wants to know my identity and a brief self-introduction.\n    *   Constraint: \"简短地\" (briefly).\n    *   Language: Chinese.\n\n2.  **Identify My Identity:**\n"
+    },
+    {
+      "prompt": "写一段关于未来科技发展趋势的简短评论。",
+      "teacher": "Here's a thinking process that leads to the suggested comment on future technology trends:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Future technology development trends (未来科技发展趋势).\n    *   **Format:** Short comment/review (简短评论).\n    *   **Tone:** Objective, insightful, forward-looking (implied).\n    *   **Language:** Chinese.\n\n2.  **Identify Key Themes/Trends:**\n    *  ",
+      "student": "Here's a thinking process that leads to the suggested commentary on future tech trends:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Future technology development trends (未来科技发展趋势).\n    *   **Format:** Short commentary/review (简短评论).\n    *   **Language:** Chinese (Simplified).\n    *   **Goal:** Provide a concise, insightful, and forward-looking perspective on where tech is heading.\n\n2.  **Identify Key"
+    },
+    {
+      "prompt": "为什么大语言模型在长文本处理上往往面临算力和显存的巨大瓶颈？有什么优化的思路吗？",
+      "teacher": "Here's a thinking process that leads to the suggested answer:\n\n1.  **Deconstruct the User's Query:**\n    *   **Core Question:** Why do Large Language Models (LLMs) face huge bottlenecks in compute and memory (VRAM) when handling long texts?\n    *   **Follow-up Question:** What are the optimization strategies/solutions?\n    *   **Target Audience:** Likely someone interested in AI engineering, NLP, or model deployment (could be",
+      "student": "Here's a thinking process that leads to the suggested answer:\n\n1.  **Deconstruct the User's Query:**\n    *   **Core Question:** Why do Large Language Models (LLMs) face huge bottlenecks in computing power (FLOPs) and memory (VRAM) when processing long texts?\n    *   **Follow-up:** What are the optimization ideas/solutions?\n    *   **Target Audience:** Likely someone with technical interest (possibly developer, researcher,"
+    }
+  ],
+  "latency_seq256": {
+    "teacher_ms": 297.839523399792,
+    "student_ms": 333.79028206691146,
+    "speedup": 0.8922953704808194
+  },
+  "latency_seq512": {
+    "teacher_ms": 306.15641080075875,
+    "student_ms": 378.9575449365657,
+    "speedup": 0.8078910550573858
+  },
+  "latency_seq1024": {
+    "teacher_ms": 403.15086487098597,
+    "student_ms": 446.6535900641854,
+    "speedup": 0.9026029877271379
+  },
+  "sparsity": {
+    "total_heads": 128,
+    "retrieval_heads": 32,
+    "local_heads": 96
+  }
+}

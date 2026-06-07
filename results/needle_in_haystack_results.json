@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "depth": 0.1,
+      "input_len": 1923,
+      "teacher_response": "antigravity-999\n</think>\n\nantigravity-999",
+      "student_response": "The password to the secure server is: 'antigravity-999'.\n\nAnswer: antigravity-999\n</think>\n\nantigravity-999",
+      "teacher_success": true,
+      "student_success": true
+    },
+    {
+      "depth": 0.5,
+      "input_len": 1923,
+      "teacher_response": "antigravity-999\n</think>\n\nantigravity-999",
+      "student_response": "The password to the secure server is: 'antigravity-999'.\n\nAnswer: antigravity-999\n</think>\n\nantigravity-999",
+      "teacher_success": true,
+      "student_success": true
+    },
+    {
+      "depth": 0.9,
+      "input_len": 1923,
+      "teacher_response": "antigravity-999\n</think>\n\nantigravity-999",
+      "student_response": "antigravity-999\n</think>\n\nantigravity-999",
+      "teacher_success": true,
+      "student_success": true
+    }
+  ]
+}

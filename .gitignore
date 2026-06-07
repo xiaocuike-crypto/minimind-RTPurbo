@@ -1,0 +1,48 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.DS_Store
+
+# === 原项目排除 ===
+out/
+website/
+docs-minimind/
+
+# === 数据集（大文件，通过 ModelScope 下载可重现） ===
+dataset/*.jsonl
+dataset/.msc
+
+# === 模型权重 & Checkpoints ===
+*.pth
+*.bin
+*.safetensors
+*.gguf
+checkpoints/
+minimind-3/
+minimind-3-moe/
+
+# === 训练产物 ===
+wandb/
+swanlab-logs/
+logs/
+*.log
+eval_results.json
+
+# === RTPurbo 产物 ===
+head_config.json
+
+# === 论文 PDF ===
+*.pdf
+
+# === IDE & 系统 ===
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# === 排除本地大模型 & 训练输出目录 ===
+model/
+out_rtpurbo_2048/

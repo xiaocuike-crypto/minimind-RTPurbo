@@ -1,0 +1,44 @@
+{
+  "prompts": [
+    {
+      "prompt": "你好，请问你是谁？请简短地自我介绍一下。",
+      "teacher": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   User: \"你好，请问你是谁？请简短地自我介绍一下。\" (Hello, may I ask who you are? Please introduce yourself briefly.)\n    *   Intent: The user wants to know my identity and a brief self-introduction.\n    *   Constraint: \"Briefly\" (简短地).\n\n2.  **Identify My Identity:**\n    *   I am Qwen3",
+      "student": "嗯，用户问我是谁，让我简短自我介绍。我需要明确自己的身份，我是通义千问，是通义实验室研发的超大规模语言模型。用户可能刚接触，需要简洁清晰的回答。\n\n首先，确认用户的问题意图，他们想了解我的基本信息。接下来要涵盖身份、能力、特点。避免使用专业术语，保持口语化。\n\n需要提到是通义实验室研发的，超大规模语言模型，具备多语言支持、逻辑推理等能力。同时，强调"
+    },
+    {
+      "prompt": "写一段关于未来科技发展趋势的简短评论。",
+      "teacher": "Here's a thinking process that leads to the suggested commentary on future technology trends:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Future technology development trends (未来科技发展趋势).\n    *   **Format:** Short commentary/critique (简短评论).\n    *   **Language:** Chinese (Simplified).\n    *   **Goal:** Provide a concise, insightful, and balanced overview of where technology is heading.\n\n2.  **Identify Key",
+      "student": "Here's a thinking process that leads to the suggested comment on future tech trends:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Future technology development trends (未来科技发展趋势).\n    *   **Format:** Short commentary/review (简短评论).\n    *   **Language:** Chinese.\n    *   **Goal:** Provide a concise, insightful, and forward-looking perspective on where technology is heading.\n\n2.  **Identify Key Trends:**\n"
+    },
+    {
+      "prompt": "为什么大语言模型在长文本处理上往往面临算力和显存的巨大瓶颈？有什么优化的思路吗？",
+      "teacher": "Here's a thinking process that leads to the suggested answer:\n\n1.  **Deconstruct the User's Query:**\n    *   **Core Question:** Why do Large Language Models (LLMs) face huge bottlenecks in computational power (FLOPs) and memory (VRAM/DRAM) when processing long texts?\n    *   **Follow-up Question:** What are the optimization strategies/solutions?\n    *   **Context:** Technical, AI/ML domain, specifically focusing",
+      "student": "Here's a thinking process that leads to the suggested answer:\n\n1.  **Deconstruct the User's Query:**\n    *   **Core Question:** Why do Large Language Models (LLMs) face huge bottlenecks in computational power (FLOPs) and memory (VRAM/HBM) when handling long text?\n    *   **Follow-up:** What are the optimization ideas/approaches to solve these bottlenecks?\n    *   **Target Audience:** Likely someone"
+    }
+  ],
+  "latency_seq256": {
+    "teacher_ms": 352.24918326712213,
+    "student_ms": 389.5204759338716,
+    "speedup": 0.9043149334386289
+  },
+  "latency_seq512": {
+    "teacher_ms": 417.8805482651418,
+    "student_ms": 427.9065513983369,
+    "speedup": 0.9765696433007824
+  },
+  "latency_seq1024": {
+    "teacher_ms": 495.51935033329454,
+    "student_ms": 456.83341372835764,
+    "speedup": 1.084682808749056
+  },
+  "latency_seq2048": {
+    "teacher_ms": 649.5978657330852,
+    "student_ms": 710.0658207336286,
+    "speedup": 0.9148417608130063
+  },
+  "sparsity": {
+    "total_heads": 128,
+    "retrieval_heads": 32,
+    "local_heads": 96
+  }
+}
